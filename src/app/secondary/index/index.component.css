@@ -1,0 +1,63 @@
+.stat-wrap h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #060808 !important;
+    margin: 0 ;
+    padding: 0;
+    line-height: 1;
+}
+
+.stat-wrap p {
+    font-size: 38px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+    padding: 4px 0 0;
+    line-height: 1 !important;
+}
+
+.page-section{
+	padding: 70px 0px; 
+}
+
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-title p {
+    color: #999;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 0;
+}
+
+.section-title h3 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 62px;
+    margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+}
+
+.cl{
+  background-color: black;
+  padding: 1%;
+  margin: 2rem;
+}
+
+.dato-anam{
+  background-color: #5DB7DE;
+  text-align: center;  
+}

@@ -1,0 +1,94 @@
+.all-title-box h1{
+	color: black;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding-top: 11%;
+	font-size: 48px;
+	line-height: 0px;
+}
+span.m_1 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5em;
+	  display: block;
+	  padding-top: 5%;
+}
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
+}
+
+.hmv-box{
+	padding: 60px 0px; 
+}
+.inner-hmv{
+	padding: 15px;
+	box-shadow: 0 0px 10px rgba(0,0,0,.1);
+	position: relative;
+	overflow: hidden;
+}
+.inner-hmv:hover .tr-pa{
+	opacity: 1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.inner-hmv h3{
+	font-size: 28px;
+	color: #212121;
+    font-weight: 500;
+	margin-bottom: 20px;
+	padding: 0px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.inner-hmv p{
+	margin: 0px;
+}
+
+.inner-hmv:hover .icon-box-hmv{
+	border: 3px solid #eea412;
+}
+.inner-hmv:hover .icon-box-hmv i{
+	color: #4babb1;
+}
+.inner-hmv:hover h3{
+	color: #eea412;
+}
+.tr-pa{
+	font-size: 170px;
+	color: #fbfbfb;
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    line-height: 125px;
+	font-weight: 700;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.icon-box-hmv{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border: 3px solid #4babb1;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.icon-box-hmv i{
+	font-size: 60px;
+	color: #eea412;
+}
