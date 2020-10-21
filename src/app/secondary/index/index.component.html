@@ -1,6 +1,6 @@
 <body class="host_version">
 	<!--Carousel Wrapper-->
-	<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+	<div id="carousel-example-2" class="carousel slide carousel-fade m-2" data-ride="carousel">
 		<!--Indicators-->
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -77,61 +77,42 @@
 						se imparta el mejor material de estudio para los estudiantes.</p>
 				</div>
 			</div><!-- end title -->
-			<div class="timeline">
-				<div class="timeline__wrap">
-					<div class="timeline__items">
-						<div class="timeline__item">
-							<div class="timeline__content img-bg-01">
-								<h2>2005</h2>
-								<p>Idea el lugar y el personal administrativo.</p>
-							</div>
-						</div>
-						<div class="timeline__item">
-							<div class="timeline__content img-bg-02">
-								<h2>2006</h2>
-								<p>Ubicarnos en la calle Velez entre Carchi y Tulcan. Remodelando el antiguo edificio
-									donde haremos historia.</p>
-							</div>
-						</div>
-						<div class="timeline__item">
-							<div class="timeline__content img-bg-03">
-								<h2>2008</h2>
-								<p>Empezamos a funcionar con un total de 100 estudiantes en el área inicial.</p>
-							</div>
-						</div>
-						<div class="timeline__item">
-							<div class="timeline__content img-bg-04">
-								<h2>2009</h2>
-								<p>Nuestro crecimiento de estudiantes empezó a resurgir.</p>
-							</div>
-						</div>
-						<div class="timeline__item">
-							<div class="timeline__content img-bg-01">
-								<h2>2010-2015</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-									condimentum lacus dapibus. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							</div>
-						</div>
-						<div class="timeline__item">
-							<div class="timeline__content img-bg-02">
-								<h2>2011</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-									condimentum lacus dapibus. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							</div>
-						</div>
-						<div class="timeline__item">
-							<div class="timeline__content img-bg-04">
-								<h2>Actualidad</h2>
-								<p>Debido a la pandemia, teniamos la responsabilidad de proteger a nuestros cadetes, por
-									este motivo, decidimos actualizarnos adaptando plataformas técnológicas como Zoom o
-									Microsoft Teams, para el desarrollo de las clases virtuales.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<!-- Add the timeline -->
+	  <vertical-timeline>
+	  
+		<!-- Add some cards to the timeline. It works with *ngFor too -->
+	  
+		<!-- If no value is passed for the date, the current time is used. -->
+		<vertical-timeline-card [dateValue]="a_2005">
+			<h1>Planificación</h1>
+			<p>Idea el lugar y el personal administrativo.</p>
+		  </vertical-timeline-card>
+	  
+		<!-- tomorrow = new Date(2017, 9, 20, 14,34); -->
+		<vertical-timeline-card [dateValue]="a_2007">			
+		  <h1>Ubicación</h1>
+		  <p>Ubicarnos en la calle Velez entre Carchi y Tulcan. Remodelando el antiguo edificio
+			  donde haremos historia.</p>
+		</vertical-timeline-card>
+
+		<vertical-timeline-card [dateValue]="a_2009">
+			<h1>Inicio</h1>
+			<p>Empezamos a funcionar con un total de 100 estudiantes en el área inicial.</p>
+		  </vertical-timeline-card>
+
+		  <vertical-timeline-card [dateValue]="a_2011">
+			<h1>Crecimiento</h1>
+			<p>Nuestro crecimiento de estudiantes empezó a surgir de 100 a 500 estudiantes.</p>
+		  </vertical-timeline-card>
+
+		  <vertical-timeline-card [dateValue]="a_2020">
+			<h1>Actualidad</h1>
+			<p>Debido a la pandemia, teniamos la responsabilidad de proteger a nuestros cadetes, por
+			  este motivo, decidimos actualizarnos adaptando plataformas técnológicas como Zoom o
+			  Microsoft Teams, para el desarrollo de las clases virtuales.</p>
+		  </vertical-timeline-card>
+	  </vertical-timeline>
+
 		</div>
 	</section>
 
