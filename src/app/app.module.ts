@@ -10,6 +10,9 @@ import { IndexComponent } from './secondary/index/index.component';
 import { NosotrosComponent } from './secondary/nosotros/nosotros.component';
 import { PricingComponent } from './secondary/pricing/pricing.component';
 
+
+//https://fontawesome.bootstrapcheatsheets.com/
+
 const rutas: Routes = [
   { path: '', component: IndexComponent },
   { path: 'nosotros', component: NosotrosComponent},
@@ -29,7 +32,7 @@ const rutas: Routes = [
     BrowserModule,
     RouterModule.forRoot(rutas),
     // Specify the timeline as an import
-    VerticalTimelineModule
+    VerticalTimelineModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

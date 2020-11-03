@@ -113,6 +113,7 @@
 
 .footer-distributed .footer-right {
     float: right;
+    
 }
 
 
@@ -183,7 +184,8 @@
 	padding: 0px;
 }
 .footer-links-soi li{
-	display: inline-block;
+    display: inline-block;
+    margin: 5px;
 }
 .footer-links-soi li a{
 	background: #ffffff;
@@ -200,7 +202,7 @@
 	background: #FEEE00;
 }
 .footer-links-soi li a:hover i{
-	color: #ffffff;
+	color: #2A4579;
 	-webkit-transform: rotateY(360deg);
 	transform: rotateY(360deg);
 }

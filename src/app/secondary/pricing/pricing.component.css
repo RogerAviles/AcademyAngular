@@ -1,3 +1,28 @@
+.section.lb{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+body.host_version .nav-pills > li:hover > a,
+body.host_version .nav-pills > li:focus > a{
+	background: #060808;
+	color: #ffffff;
+}
+
+body.host_version .nav-pills > li > a.active,
+body.host_version .nav-pills > li > a.active:focus,
+body.host_version .nav-pills > li > a.active:hover{
+	background: #2A4579;
+	color: #ffffff;
+}
+
+body.host_version .icon_wrap:hover,
+body.host_version .icon-wrapper:hover i,
+body.host_version .grd1 {
+    color: #ffffff !important;
+    background: #060808;
+}
+
 .message-box a{
 	position: relative;
 	font-size: 18px;
@@ -46,11 +71,6 @@
   width: 0;
 }
 
-.section.lb {
-    background-color: #f2f3f5;
-}
-
-
 .nav-pills {
     border: 1px solid #e1e1e1;
 	border-radius: 2px;
@@ -69,12 +89,26 @@
     background-color: #f4f4f4;
 	display: block;
 	padding: 10px 0px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.pricing-table {
+    margin: 0px;
+    background: #fff;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
 	border-radius: 2px;
 }
 
 .pricing-table-highlighted h3,
 .pricing-table-highlighted h2 {
     color: #ffffff !important;
+}
+
+.pricing-table strong {
+    font-weight: 600;
+    margin-right: 6px;
+    color: #1f1f1f;
 }
 
 .pricing-table-header {
@@ -105,5 +139,27 @@
     text-align: left;
     line-height: 30px;
     font-size: 16px;
-    color: #c2c2c2;
+    color: #3f3e3e;
+}
+
+.pricing-table:hover {
+	transform: scale(1.05,1.06);
+	-webkit-transform: scale(1.05,1.06);
+	-moz-transform: scale(1.05,1.06);
+	-o-transform: scale(1.05,1.06);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+.pricing-table-space {
+    height: 10px;
+}
+
+/* Highlighted table */
+
+.pricing-table-highlighted {
+    margin-top: 0;
 }
