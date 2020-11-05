@@ -1,0 +1,87 @@
+/*Header*/
+.tit-up {
+	position: relative;
+}
+.tit-up .close{
+	position: absolute;
+	z-index: 2;
+	right: 0px;
+	top: 0px;
+	margin: 0;
+}
+
+/*Body*/
+.customer-box .nav-tabs{
+	border-bottom: none;
+	padding: 20px;
+	background: #f6f6f6;
+}
+
+.customer-box .nav-tabs > li > a.active{
+	border: none;
+	background: #5DB7DE;
+	color: #fff;
+	border-radius: 0px;
+}
+
+.customer-box .nav-tabs > li > a{
+	border-radius: 0px;
+	border: 0px;
+	background: #2d3032;
+	color: #ffffff;
+	padding: 10px 25px;
+	font-size: 18px;
+	display: block;
+}
+
+.customer-box .nav-tabs > li > a:hover{
+	background: #2A4579;
+	color: #ffffff;
+    border: 0px;
+    text-decoration: none;
+}
+
+.customer-box .tab-content{
+	padding: 20px;
+}
+
+.for-pwd{
+	margin-left: 20px;
+}
+
+.customer-box .tab-content .form-group .form-control{
+	background-color: #fff;
+	margin-bottom: 30px;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	color: #bcbcbc;
+	font-size: 16px;
+	outline: 0 none;
+	padding: 10px 25px;
+	height: 55px;
+	resize: none;
+	box-shadow: none !important;
+	width: 100%;
+}
+
+/*Botones*/
+.grd1 {
+    color: #ffffff !important;
+    background: #2d3032;
+    padding: 13px 40px;
+    font-size: 18px;
+    border: 2px solid #ffffff !important;
+}
+
+.grd1:hover,
+.grd1:focus {
+    background-position: 100px;
+    color: #ffffff !important;
+    background: #2A4579;
+}
+
+
+/*Olvido Clave*/
+.for-pwd{
+	margin-left: 20px;
+}

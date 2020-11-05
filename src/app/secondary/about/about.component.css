@@ -1,0 +1,39 @@
+.lead strong {
+    color: #333333
+}
+
+.message-box{
+	padding: 20px 0px;
+}
+
+.message-box h4 {
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: #A85638;
+}
+
+.message-box h2 {
+    font-size: 38px;
+    font-weight: 400;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+}
+
+.message-box p {
+    margin-bottom: 20px;
+}
+
+.post-media {
+    position: relative;
+}
+
+.post-media img {
+    width: 100%;
+}

@@ -1,11 +1,52 @@
-.all-title-box h2{
-	color: black;
+/*Portada*/
+.all-title-box h1{
+	color: white;
 	font-weight: 700;
 	text-transform: capitalize;
 	padding-top: 11%;
 	font-size: 2rem;
 	line-height: 0px;
 }
+
+.all-title-box{
+	background: url(/assets/images/about.jpg)no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+}
+
+/*Title Center*/
+.section-title {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-title p {
+    color: #999;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 0;
+}
+
+.section-title h3 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 62px;
+    margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+}
+
+.section.lb {
+    background-color: #f2f3f5;
+}
+
+/*m, v, h*/
 span.m_1 {
     font-weight: 300;
     font-size: 20px;
@@ -16,13 +57,13 @@ span.m_1 {
 .lead {
     font-size: 18px;
     line-height: 30px;
-    color: #767676;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
 .hmv-box{
-	padding: 60px 0px; 
+	padding: 30px 0px; 
 }
 .inner-hmv{
 	padding: 15px;
@@ -31,7 +72,7 @@ span.m_1 {
 	overflow: hidden;
 }
 .inner-hmv:hover .tr-pa{
-	opacity: 1;
+	opacity: 0.5;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -53,17 +94,17 @@ span.m_1 {
 }
 
 .inner-hmv:hover .icon-box-hmv{
-	border: 3px solid #eea412;
+	border: 3px solid #A85638;
 }
 .inner-hmv:hover .icon-box-hmv i{
-	color: #4babb1;
+	color: #2A4579;
 }
 .inner-hmv:hover h3{
-	color: #eea412;
+	color: #A85638;
 }
 .tr-pa{
 	font-size: 170px;
-	color: #fbfbfb;
+	color: #2A4579;
     position: absolute;
     top: -20px;
     right: -10px;
@@ -80,7 +121,7 @@ span.m_1 {
 	height: 100px;
 	line-height: 100px;
 	text-align: center;
-	border: 3px solid #4babb1;
+	border: 3px solid #2A4579;
 	border-radius: 6px;
 	margin-bottom: 20px;
 	-webkit-transition: all 0.3s;
@@ -90,5 +131,5 @@ span.m_1 {
 }
 .icon-box-hmv i{
 	font-size: 60px;
-	color: #eea412;
+	color: #A85638;
 }
