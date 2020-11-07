@@ -11,6 +11,7 @@ import { NosotrosComponent } from './secondary/nosotros/nosotros.component';
 import { PricingComponent } from './secondary/pricing/pricing.component';
 import { AboutComponent } from './secondary/about/about.component';
 import { LoginComponent } from './shared/login/login.component';
+import { TeacherComponent } from './secondary/teacher/teacher.component';
 
 
 //https://fontawesome.bootstrapcheatsheets.com/
@@ -19,7 +20,8 @@ import { LoginComponent } from './shared/login/login.component';
 const rutas: Routes = [
   { path: '', component: IndexComponent },
   { path: 'nosotros', component: NosotrosComponent},
-  { path: 'precios', component: PricingComponent}
+  { path: 'precios', component: PricingComponent},
+  { path: 'teacher', component: TeacherComponent}
  ];
  
 @NgModule({
@@ -31,7 +33,8 @@ const rutas: Routes = [
     NosotrosComponent,
     PricingComponent,
     AboutComponent,
-    LoginComponent
+    LoginComponent,
+    TeacherComponent
   ],
   imports: [
     BrowserModule,

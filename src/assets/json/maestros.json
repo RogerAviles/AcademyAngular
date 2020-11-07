@@ -1,0 +1,76 @@
+[
+    {
+        "id":"1",
+        "nombre":"Alberto Salinas",
+        "maestro":"Maestro de Ciencias Naturales",
+        "nivel":"Primaria",
+        "imagen":"/assets/images/Maestros/2.png"
+    },{
+        "id":"2",
+        "nombre":"Carmen Salinas",
+        "maestro":"Maestra de Ciencias Sociales",
+        "nivel":"Secundaria",
+        "imagen":"/assets/images/Maestros/1.png"
+    },{
+        "id":"3",
+        "nombre":"Lana Banana",
+        "maestro":"Maestra de Matemáticas",
+        "nivel":"Primaria",
+        "imagen":"/assets/images/Maestros/3.png"
+    },{
+        "id":"4",
+        "nombre":"Fabiola Tamayo",
+        "maestro":"Maestra de Historia",
+        "nivel":"Primaria",
+        "imagen":"/assets/images/Maestros/4.png"
+    },{
+        "id":"5",
+        "nombre":"Galo Rodriguez",
+        "maestro":"Maestro de Ciencias Naturales",
+        "nivel":"Secundaria",
+        "imagen":"/assets/images/Maestros/5.png"
+    },{
+        "id":"6",
+        "nombre":"Humberto Ramos",
+        "maestro":"Maestro de Educación Física",
+        "nivel":"Primaria",
+        "imagen":"/assets/images/Maestros/6.png"
+    },{
+        "id":"7",
+        "nombre":"Ingrid Betancourt",
+        "maestro":"Maestra de Humanistica",
+        "nivel":"Primaria",
+        "imagen":"/assets/images/Maestros/7.png"
+    },{
+        "id":"8",
+        "nombre":"Juan Zambrano",
+        "maestro":"Maestro de Física",
+        "nivel":"Secundaria",
+        "imagen":"/assets/images/Maestros/8.png"
+    },{
+        "id":"9",
+        "nombre":"Karen Cedeño",
+        "maestro":"Maestra de Inglés",
+        "nivel":"Primaria",
+        "imagen":"/assets/images/Maestros/9.png"
+    },{
+        "id":"10",
+        "nombre":"Leona Rodriguez",
+        "maestro":"Maestra de Artes",
+        "nivel":"Primaria",
+        "imagen":"/assets/images/Maestros/10.png"
+    },{
+        "id":"11",
+        "nombre":"Manuela Cañizares",
+        "maestro":"Maestra de Instrucción Militar",
+        "nivel":"Secundaria",
+        "imagen":"/assets/images/Maestros/11.png"
+    },{
+        "id":"12",
+        "nombre":"Nadia Cruz",
+        "maestro":"Maestra de Lenguajes",
+        "nivel":"Secundaria",
+        "imagen":"/assets/images/Maestros/12.png"
+    }
+
+]
